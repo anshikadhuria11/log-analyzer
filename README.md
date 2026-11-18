@@ -1,4 +1,4 @@
-# 🔍 Log Analyzer — AI-Powered Root Cause Analysis
+# Log Analyzer — AI-Powered Root Cause Analysis
 
 > Paste any server log. Get back a structured breakdown of what went wrong, which lines prove it, and how to fix it. Powered by Groq AI.
 
@@ -8,12 +8,12 @@
 
 Log Analyzer is a full-stack web application that uses a large language model (LLM) to analyze server and application logs. You paste a log, click a button, and within 10–15 seconds you get:
 
-- 📝 A plain-English **summary** of what happened
-- 🎯 The identified **root cause** (with category: database, network, memory, etc.)
-- 🔎 **Evidence** — the specific log lines that prove the root cause
-- 🕒 A **timeline** of how the problem unfolded
-- 🛠 Concrete **suggested fixes**
-- 📊 **Confidence level** (high / medium / low) with reasoning
+-  A plain-English **summary** of what happened
+-  The identified **root cause** (with category: database, network, memory, etc.)
+-  **Evidence** — the specific log lines that prove the root cause
+-  A **timeline** of how the problem unfolded
+-  Concrete **suggested fixes**
+- **Confidence level** (high / medium / low) with reasoning
 
 The app works with any log format: plain text, JSON Lines (JSONL), CloudWatch-style timestamps, Python tracebacks, Nginx access logs, Docker logs — anything.
 
@@ -25,7 +25,7 @@ The app works with any log format: plain text, JSON Lines (JSONL), CloudWatch-st
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│  🔍 Log Analyzer  [AI]                    ● API online   │
+│  Log Analyzer  [AI]                    ● API online   │
 │                                                          │
 │       Find the root cause of your logs instantly         │
 │                                                          │
@@ -38,9 +38,9 @@ The app works with any log format: plain text, JSON Lines (JSONL), CloudWatch-st
 │  │                   [🔍 Analyze Logs]                │  │
 │  └────────────────────────────────────────────────────┘  │
 │                                                          │
-│  💬 The service crashed due to DB connection exhaustion  │
-│  🎯 Root Cause: Database connection pool exhausted       │
-│  🛠 Fix: Increase pool_size, add retry logic             │
+│   The service crashed due to DB connection exhaustion  │
+│   Root Cause: Database connection pool exhausted       │
+│   Fix: Increase pool_size, add retry logic             │
 └──────────────────────────────────────────────────────────┘
 ```
 
