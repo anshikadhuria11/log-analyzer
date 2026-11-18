@@ -250,24 +250,3 @@ Simplified:
 
 ---
 
-## Documentation
-
-Detailed guides are in the `docs/` folder:
-
-| File | Contents |
-|------|----------|
-| [`docs/arjun.md`](docs/arjun.md) | Project overview — what it is and why it exists |
-| [`docs/setup.md`](docs/setup.md) | Full installation guide with troubleshooting |
-| [`docs/instruction.md`](docs/instruction.md) | How to use the app, understanding the report |
-| [`docs/explanation.md`](docs/explanation.md) | Technical deep-dive into every processing stage |
-| [`docs/commit.md`](docs/commit.md) | Git workflow and GitHub publishing guide |
-
----
-
-## License
-
-MIT — do whatever you want with it.
-
----
-
-*Built with FastAPI, React, LangChain, and Groq AI. Designed to be readable, hackable, and genuinely useful.*
