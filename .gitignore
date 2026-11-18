@@ -31,3 +31,6 @@ ruff_cache/
 
 # Misc
 .DS_Store
+
+#doc files
+docs/
