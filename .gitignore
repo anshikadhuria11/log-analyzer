@@ -1,0 +1,33 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Env files
+.env
+
+# Node modules
+frontend/node_modules/
+
+# Build artifacts
+frontend/dist/
+backend/__pycache__/
+backend/*.egg-info/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Vercel files
+.vercel/
+
+# Test caches
+.pytest_cache/
+ruff_cache/
+
+# Misc
+.DS_Store
